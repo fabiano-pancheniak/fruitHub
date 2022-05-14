@@ -1,0 +1,330 @@
+$main-color: #FFA451;
+$text-color: #27214D;
+$main-font: 'Josefin Sans', sans-serif;
+
+
+
+.launch_img{
+    background-color: $main-color;
+    height: 90%;
+    box-sizing: border-box;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+    height: 469px;
+    text-align: center;
+
+    .fruit_sm{
+        position: relative;
+        text-align: end;
+        right: 40px;
+        bottom: -20px;
+        padding-top: 20%;
+        
+    }
+    .fruit_bg{
+        width: 301px;
+        height: 260px;
+    }
+}
+.bottom{
+    text-align: center;
+
+.bottom_title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #27214D;
+    margin-top: 15%;
+    text-align: center;  
+    margin-left: 25px;  
+}
+
+.bottom_subtitle{
+    margin-top: 2%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.01em;
+    color: #5D577E;
+    margin-right: 20%;
+    text-align: start;
+    margin-left: 24px;
+      
+}
+
+.btn_start{
+    color: white;
+    background-color:$main-color;
+    border: none;
+    width: 327px;
+    height: 56px;
+    border-radius: 10px;
+    margin-top: 15%;
+    text-align: center;
+}
+
+.btn_start_ordering{
+    color: white;
+    background-color:$main-color;
+    border: none;
+    width: 327px;
+    height: 56px;
+    border-radius: 10px;
+    margin-top: 5%;
+    text-align: center;
+    
+}
+
+.input_default{
+    background-color: #F3F1F1;
+    border: none;
+    width: 327px;
+    height: 56px; 
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+}
+
+/* ORDER LIST */
+
+.header{
+    background-color: $main-color;
+    width: 100%;
+    height: 100px;
+        .go_back{
+            background-color: white;
+            text-align: center;
+            border: none;
+            border-radius: 30px;
+            font-weight: 300;
+            font-size: 16px;
+            color: #27214D;
+            margin: 28px 24px 40px 20px;
+        }
+
+        .header_text{
+            font-family: 'Josefin Sans', sans-serif;
+            color: white;
+            margin-top: 10%; 
+            font-weight: 500;
+            font-size: 22px;
+            display: inline-block;
+            
+            
+        }
+    }
+    
+    .order_list{
+        .item_outline{
+            width: 64px;
+            height: 65px;
+            display: inline-block;
+            margin-right: 16px;
+            margin-top: 32px;
+            margin-left: 24px;
+            text-align: center;
+            background-color: #F1EFF6;
+            border-radius: 20px;
+            
+            
+            .item_img{
+                
+                padding-top: 10%;
+                margin: 15%;
+                background-color: #F1EFF6;
+            }
+        }
+        .item_info{
+            height: 80px;
+            margin-right: 20px;
+            text-align: start;
+            display: inline-block;
+            font-family: $main-font;
+            font-weight: 500;
+            font-size: 16px;
+            width: 150px;
+            
+            .item_title{
+                margin-top: 49px;
+                
+                
+            }
+            .item_subtitle{
+                padding-top: 4px;
+                text-align: start;
+                font-size: 14px;
+            }
+        }
+        .price{
+            margin-top: 61px;
+            display: inline-block;
+            font-family: $main-font;
+            font-weight: 700;
+            font-size: 16px;
+            color: #27214D;
+            
+            
+        }   
+    }
+
+.footer{
+    display: inline-block;
+    vertical-align: top;
+    margin: 237px 25px 61px 25px;
+    font-family: $main-font;
+    font-weight: 500;
+    font-size: 16px;
+    
+    
+    h3{
+        display: inline-block;
+        font-size: 24px;
+        color: #27214D;
+
+    }
+    
+}
+
+    .btn_checkout{
+        color: white;
+        background-color:$main-color;
+        border: none;
+        width: 199px;
+        height: 56px;
+        border-radius: 10px;
+        text-align: center;
+        background-color: $main-color;
+        text-align: center;
+        margin-top: 237px;
+    }
+
+    /*COMPLETE_DETAILS*/
+
+   .address{
+        width: 100%;
+        height: 406px;
+        border-radius: 20px;
+        padding-top: 40px;
+        
+        .address_info{            
+            font-family: $main-font;
+            font-weight: 500;
+            font-size: 20px;
+            color: $text-color;
+            margin: 0px 225px 29px 24px;        
+            
+        }
+        .input_default{
+            background-color: #F3F1F1;
+            border: none;
+            width: 303px;
+            height: 56px; 
+            border-radius: 10px;
+            padding-left: 24px;
+            margin: 24px 0;
+        }
+
+        .btn_payment_delivery{
+            border: 2px solid;
+            width: 125px;
+            height: 56px;
+            margin-left: 24px;
+            margin-right: 80px;
+            border-color: $main-color;
+            color: $main-color;
+            border-radius: 15px;
+            background-color: white;   
+            
+            
+        }
+        
+        .btn_payment_card{
+            border: 2px solid;
+            width: 125px;
+            height: 56px;
+            border-color: $main-color;
+            color: $main-color;
+            border-radius: 15px;
+            background-color: white;  
+        }
+
+}
+
+/*ORDER_COMPLETE*/
+
+.outside_circle{
+    width: 164px;
+    height: 164px;
+    border: 3px solid;
+    background-color: #E0FFE5;
+    border-color: #4CD964;
+    border-radius: 50%; 
+   
+    margin: 154px 0 56px 98px;
+
+    .check_circle{
+        background-color: #4CD964;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        margin: 32px;
+        .check{
+            padding: 32px;
+        }
+    }
+}
+
+.congratulations{
+    font-family: $main-font;
+    color: $text-color;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.congratulations_subtitle{
+    font-family: $main-font;
+    color: $text-color;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 72px 62px 56px;
+    line-height: 25px;
+}
+
+.btn_track_order{
+        color: white;
+        background-color:$main-color;
+        font-family:  $main-font;
+        font-weight: 500;
+        font-size: 16px;
+        margin-left: 121px;
+        margin-bottom: 48px;
+        border: none;
+        width: 133px;
+        height: 56px;
+        border-radius: 10px;
+        background-color: $main-color;
+}
+
+.btn_continue_shopping{
+            border: 2px solid;
+            width: 181px;
+            height: 56px;
+            border-color: $main-color;
+            margin-left: 98px;
+            color: $main-color;
+            border-radius: 15px;
+            background-color: white;  
+}
