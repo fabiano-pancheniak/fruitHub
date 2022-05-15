@@ -204,7 +204,7 @@
 
 .address .address_info {
   font-family: "Josefin Sans", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 20px;
   color: #27214D;
   margin: 0px 225px 29px 24px;
@@ -309,5 +309,170 @@
   color: #FFA451;
   border-radius: 15px;
   background-color: white;
+}
+
+.payment {
+  width: 100%;
+  height: 406px;
+  border-radius: 20px;
+  padding-top: 40px;
+}
+
+.payment .payment_info {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #27214D;
+  margin: 0px 0 29px 24px;
+  display: inline-block;
+}
+
+.payment .payment_info .input_default {
+  background-color: #F3F1F1;
+  border: none;
+  width: 303px;
+  height: 56px;
+  border-radius: 10px;
+  padding-left: 24px;
+  margin: 24px 0;
+}
+
+.payment .payment_info .input_date {
+  display: inline-block;
+  margin-right: 27px;
+}
+
+.payment .payment_info .input_cvv {
+  display: inline-block;
+}
+
+.payment .payment_info .input_short {
+  background-color: #F3F1F1;
+  border: none;
+  width: 114px;
+  height: 56px;
+  border-radius: 10px;
+  padding-left: 24px;
+  display: inline-block;
+  margin-top: 16px;
+}
+
+.payment .complete_order {
+  width: 100%;
+  height: 96px;
+  text-align: center;
+  background-color: #FFA451;
+  border-radius: 20px;
+}
+
+.payment .btn_complete_order {
+  border: 2px solid;
+  width: 125px;
+  height: 56px;
+  border-color: #FFA451;
+  color: #FFA451;
+  border-radius: 15px;
+  background-color: white;
+  margin: 20px 120px 18px 120px;
+}
+
+.order_update:nth-child(2) {
+  margin-top: 40px;
+}
+
+.order_update {
+  margin-left: 24px;
+}
+
+.order_update .img_background {
+  width: 65px;
+  height: 65px;
+  background-color: #F1EFF6;
+  text-align: center;
+  display: inline-block;
+  border-radius: 10px;
+  vertical-align: middle;
+}
+
+.order_update .img_background .check_background_md {
+  background-color: #4CD964;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 12px;
+}
+
+.order_update .img_background .check_background_md .check_md {
+  margin-top: 14px;
+}
+
+.order_update .img_background .order_icon {
+  margin: 10px;
+}
+
+.order_update .order_status_title {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 200px;
+  margin-left: 21px;
+  line-height: 20px;
+}
+
+.order_update .order_status_title .order_subtitle {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+}
+
+.order_update .check_icon_div {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.order_update .check_background {
+  text-align: center;
+  width: 24px;
+  height: 24px;
+  background-color: #4CD964;
+  border-radius: 50%;
+}
+
+.order_update .check_background .check_sm_icon {
+  margin-top: 8px;
+}
+
+.phone_icon_div {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.phone_icon_div .phone_background {
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  background-color: #FFA451;
+  border-radius: 50%;
+}
+
+.phone_icon_div .phone_background .phone_sm_icon {
+  margin-top: 10px;
+}
+
+.map {
+  margin-left: 24px;
+}
+
+.dashes:nth-child(7) {
+  height: 19px;
+}
+
+.dashes {
+  width: 0px;
+  height: 40px;
+  border: 1px dashed #FFA451;
+  margin-left: 56px;
 }
 /*# sourceMappingURL=style.css.map */

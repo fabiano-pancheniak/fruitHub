@@ -95,7 +95,7 @@ $main-font: 'Josefin Sans', sans-serif;
 }
 
 /* ORDER LIST */
-
+//TALVEZ VAI DAR CAGADA EM OURA TELA POR CAUSA DA MARGEM
 .header{
     background-color: $main-color;
     width: 100%;
@@ -217,7 +217,7 @@ $main-font: 'Josefin Sans', sans-serif;
         
         .address_info{            
             font-family: $main-font;
-            font-weight: 500;
+            font-weight: 400;
             font-size: 20px;
             color: $text-color;
             margin: 0px 225px 29px 24px;        
@@ -327,4 +327,165 @@ $main-font: 'Josefin Sans', sans-serif;
             color: $main-color;
             border-radius: 15px;
             background-color: white;  
+}
+
+//INPUT CARD DETAILS
+
+.payment{
+    width: 100%;
+    height: 406px;
+    border-radius: 20px;
+    padding-top: 40px;
+    .payment_info{
+            font-family: $main-font;
+            font-weight: 400;
+            font-size: 20px;
+            color: $text-color;
+            margin: 0px 0 29px 24px; 
+            display: inline-block;
+        .input_default{
+            background-color: #F3F1F1;
+            border: none;
+            width: 303px;
+            height: 56px; 
+            border-radius: 10px;
+            padding-left: 24px;
+            margin: 24px 0;
+        }
+            .input_date{
+                display: inline-block;
+                margin-right: 27px;
+            }
+            .input_cvv{
+                display: inline-block;
+            }
+        
+            .input_short{                
+                background-color: #F3F1F1;
+                border: none;
+                width: 114px;
+                height: 56px; 
+                border-radius: 10px;
+                padding-left: 24px;
+                display: inline-block;
+                margin-top: 16px;
+            
+            
+        }
+    }
+    
+    .complete_order{
+        width: 100%;
+        height: 96px;
+        text-align: center;
+        background-color: $main-color;
+        border-radius: 20px;
+    }
+    .btn_complete_order{
+            border: 2px solid;
+            width: 125px;
+            height: 56px;
+            border-color: $main-color;
+            color: $main-color;
+            border-radius: 15px;
+            background-color: white;  
+            margin: 20px 120px 18px 120px;
+    }
+}
+
+//track_order
+.order_update:nth-child(2){
+    margin-top: 40px;
+}
+.order_update {
+    margin-left: 24px;
+    .img_background{
+        width: 65px;
+        height: 65px;
+        background-color: #F1EFF6;
+        text-align: center;
+        display: inline-block;
+        border-radius: 10px;
+        vertical-align: middle;
+
+        .check_background_md{
+            background-color: #4CD964;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            margin: 12px;
+            .check_md{
+                margin-top: 14px;
+            }
+        }
+        .order_icon{
+            margin: 10px;
+        }
+    }
+    
+    .order_status_title{
+        font-family: $main-font;
+        font-weight: 600;
+        font-size: 12px;
+        display: inline-block;
+        vertical-align: middle; 
+        width: 200px;
+        margin-left: 21px;
+        line-height: 20px;
+        
+        .order_subtitle{
+            font-family: $main-font;
+            font-weight: 400;
+            font-size: 11px;
+        }
+    }
+
+    .check_icon_div{
+        display: inline-block;
+        margin-left: 10px;
+        
+        }
+        .check_background{
+            text-align: center;
+            width: 24px;
+            height: 24px;
+            background-color: #4CD964;
+            border-radius: 50%;
+            
+            .check_sm_icon{
+                margin-top: 8px;
+            }
+        }
+    }
+    .phone_icon_div{
+        display: inline-block;
+        margin-left: 10px;
+        .phone_background{
+            text-align: center;
+            width: 40px;
+            height: 40px;
+            background-color: #FFA451;
+            border-radius: 50%;
+            
+            .phone_sm_icon{
+                margin-top: 10px;
+            }
+        }
+    }
+    
+
+
+.map{
+    margin-left: 24px;
+}
+
+.dashes:nth-child(7){
+    height: 19px;
+}
+
+.dashes{
+    width: 0px;
+    height: 40px;
+    border: 1px dashed #FFA451;
+    margin-left: 56px;
 }
