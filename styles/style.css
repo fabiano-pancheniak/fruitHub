@@ -480,4 +480,364 @@
   margin-top: 259px;
   margin-left: 95px;
 }
+
+.menu_basket {
+  margin-top: 88px;
+}
+
+.menu_basket .icon_menu {
+  display: inline-block;
+  margin-left: 24px;
+  margin-right: 264px;
+}
+
+.menu_basket .icon_basket {
+  display: inline-block;
+}
+
+.home_title {
+  margin-top: 24px;
+  margin-left: 24px;
+  width: 257px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #27214D;
+}
+
+.input_search {
+  background-color: #F3F4F9;
+  width: 288px;
+  height: 58px;
+  margin-left: 21px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-right: 16px;
+  margin-top: 24px;
+}
+
+.input_search .input_icon {
+  padding-top: 20px;
+  padding-left: 24px;
+}
+
+.input_search .input_icon .input_default_md {
+  background-color: #F3F4F9;
+  border: none;
+  width: 80%;
+  margin-left: 16px;
+}
+
+.recommended_combo {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  margin-left: 25px;
+  margin-top: 40px;
+  color: #27214D;
+}
+
+.card_default {
+  width: 152px;
+  height: 183px;
+  border-radius: 10px;
+  margin-top: 24px;
+  margin-left: 24px;
+  display: inline-block;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card_image {
+  margin-left: 32px;
+  margin-top: 22px;
+}
+
+.card_favourite {
+  float: right;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+
+.card_title {
+  font-family: "Josefin Sans", sans-serif;
+  color: #27214D;
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 12px;
+  margin-top: 8px;
+}
+
+.card_price_info {
+  color: #F08626;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  display: inline-block;
+  position: relative;
+  bottom: 6px;
+  left: 12px;
+}
+
+.card_more_info {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 58px;
+}
+
+.subclasses {
+  margin-top: 48px;
+}
+
+.subclasses .subitems {
+  display: inline-block;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #938DB5;
+  margin-left: 20px;
+}
+
+.subitems:first-child {
+  font-family: "Josefin Sans", sans-serif;
+  color: #27214D;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.orange_line {
+  background-color: #FFA451;
+  width: 22px;
+  height: 2px;
+  margin-left: 21px;
+  margin-bottom: 24px;
+}
+
+.container {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.container .card_short {
+  width: 140px;
+  height: 150px;
+  border-radius: 15px;
+  display: inline-block;
+  margin-right: 16px;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container .card_short .card_image {
+  margin-left: 38px;
+}
+
+.container .card_short .card_favourite {
+  float: right;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+
+.container .card_short .card_more_info {
+  margin-left: 50px;
+}
+
+*:focus {
+  outline: none;
+}
+
+.header_basket {
+  background-color: #FFA451;
+  width: 100%;
+  height: 314px;
+}
+
+.header_basket .go_back {
+  background-color: white;
+  text-align: center;
+  border: none;
+  border-radius: 30px;
+  font-weight: 300;
+  font-size: 16px;
+  color: #27214D;
+  margin: 28px 24px 10px 20px;
+}
+
+.header_basket .header_text {
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  margin-top: 10%;
+  font-weight: 500;
+  font-size: 22px;
+  display: inline-block;
+}
+
+.header_basket .img_center {
+  text-align: center;
+}
+
+.header_basket .img_center .img_food {
+  width: 306px;
+  height: 204px;
+}
+
+.img_center {
+  text-align: center;
+}
+
+.img_center .img_food {
+  width: 306px;
+  height: 204px;
+}
+
+.add_info {
+  background-color: white;
+  border-radius: 20px 20px;
+}
+
+.add_info .food_name {
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #27214D;
+  left: 25px;
+  padding-top: 10%;
+  margin-top: 5%;
+  position: relative;
+}
+
+.add_info .quantity_price {
+  display: inline-block;
+  margin-top: 5%;
+  position: relative;
+  left: 25px;
+}
+
+.food_title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #27214D;
+  margin-top: 15%;
+  text-align: center;
+  position: relative;
+  left: 25px;
+}
+
+.food_subtitle {
+  margin-top: 5%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.01em;
+  color: #5D577E;
+  position: relative;
+  left: 24px;
+  margin-right: 20%;
+  text-align: start;
+}
+
+.food_about {
+  margin-top: 10%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: -0.01em;
+  color: black;
+  position: relative;
+  left: 24px;
+  margin-right: 20%;
+  text-align: start;
+}
+
+.add_basket {
+  display: inline-block;
+  margin-left: 5%;
+  margin-top: 43px;
+}
+
+.add_basket .add_basket_icon {
+  float: left;
+}
+
+.add_basket .card_favourite {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  bottom: 10px;
+  margin-right: 94px;
+}
+
+.add_basket .btn_order {
+  color: white;
+  background-color: #FFA451;
+  border: none;
+  width: 200px;
+  height: 56px;
+  border-radius: 10px;
+}
+
+.order_quantity {
+  border-radius: 50%;
+  border: 1px solid;
+  border-color: black;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.order_quantity:active {
+  border-radius: 50%;
+  border: 1px solid;
+  border-color: black;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+  color: #FFA451;
+  background-color: #FFF2E7;
+  border: none;
+}
+
+.order_price {
+  font-family: "Josefin Sans", sans-serif;
+  color: #27214D;
+  display: inline-block;
+  margin-left: 130px;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.order_items {
+  border: none;
+  text-align: center;
+  font-size: 25px;
+  width: 30px;
+  border: none;
+  outline: none;
+}
 /*# sourceMappingURL=style.css.map */

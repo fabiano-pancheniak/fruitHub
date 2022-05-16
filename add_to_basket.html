@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header_basket">
+        <a href="home.html"><button class="go_back"><img src="imgs/go_back_svg.svg"></button></a>
+        <div class="img_center">
+            <img class="img_food" src="imgs/quinoa.png">
+        </div>
+  </div>
+    
+
+    <div class="add_info">
+        <h1 class="food_name">Quinoa Fruit Salad</h1>
+        <div class="quantity_price">
+            <button class="order_quantity" onclick="decrement()">-</button>
+            <input class="order_items" id=demoInput type=number min=1 max=10 value="1"></input>
+            <button class="order_quantity" onclick="increment()">+</button>
+            <div class="order_price"> 
+                ₦ 2.000
+            </div>
+        </div>
+            <h1 class="food_title">One Pack Contains:</h1>
+            <h2 class="food_subtitle">Red Quinoa, Lime, Honey, Blueberries, Strawberries, Mango, Fresh mint.</h2>
+            <h3 class="food_about">If you are looking for a new fruit salad to eat today, quinoa is the perfect brunch for you. make</h3>
+            <div class="add_basket">
+                <div class="add_basket_icon">
+                    <img class="card_favourite" src="imgs/icon_favourite.svg">
+                </div>
+                <a href="order_list.html"><button class="btn_order">Add to basket</button></a>
+            </div>
+        </div>
+
+    
+   
+        <script>
+            function increment() {
+               document.getElementById('demoInput').stepUp();
+            }
+            function decrement() {
+               document.getElementById('demoInput').stepDown();
+            }
+         </script>
+</body>
+</html>
