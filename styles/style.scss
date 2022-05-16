@@ -2,8 +2,6 @@ $main-color: #FFA451;
 $text-color: #27214D;
 $main-font: 'Josefin Sans', sans-serif;
 
-
-
 .launch_img{
     background-color: $main-color;
     height: 90%;
@@ -95,7 +93,6 @@ $main-font: 'Josefin Sans', sans-serif;
 }
 
 /* ORDER LIST */
-//TALVEZ VAI DAR CAGADA EM OURA TELA POR CAUSA DA MARGEM
 .header{
     background-color: $main-color;
     width: 100%;
@@ -134,10 +131,8 @@ $main-font: 'Josefin Sans', sans-serif;
             text-align: center;
             background-color: #F1EFF6;
             border-radius: 20px;
-            
-            
+
             .item_img{
-                
                 padding-top: 10%;
                 margin: 15%;
                 background-color: #F1EFF6;
@@ -472,9 +467,6 @@ $main-font: 'Josefin Sans', sans-serif;
             }
         }
     }
-    
-
-
 .map{
     margin-left: 24px;
 }
@@ -726,7 +718,7 @@ $main-font: 'Josefin Sans', sans-serif;
 }
 
 .food_title{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: $main-font;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
